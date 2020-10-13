@@ -1,0 +1,1743 @@
+
+@media screen and (max-width: 768px) {
+
+  .r_filler_1 {
+    height: 20vh;
+  }
+
+  .r_filler_2 {
+    height: 20vh;
+  }
+
+  .r_img {
+    height: 50vh;
+    margin-right: -15px;
+  }
+
+  .r-wrapper {
+    height: 100vh;
+  }
+
+  .r-content {
+    position: absolute;
+    top: 365vh;
+    height: 25vh;
+  }
+
+  .recruit-title{
+    font-size: 4em;
+    left: 50px;
+  }
+
+  .btn-recruit-l {
+    width: 300px;
+    position: absolute;
+    right: 0;
+  }
+
+  .btn-recruit-r {
+    width: 300px;
+    right: 0;
+    position: absolute;
+  }
+
+  .btn-recruit-l:hover {
+    background-color: #333;
+    color: #fff;
+  }
+
+  .btn-recruit-r:hover {
+    background-color: #333;
+    color: #fff
+  }
+
+
+  .company-title{
+    font-size: 3em;
+    top: 50px;
+    right: 0px;
+  }
+  .c_filler_1 {
+    height: 20vh;
+  }
+
+  .c_filler_2 {
+    height: 20vh;
+  }
+
+  .c_blue {
+    height: 50vh;
+  } 
+  
+  .company-wrapper {
+    height: 100vh;
+  }
+  
+  .company-content {
+    position: absolute;
+    top: 265vh;
+    height: 25vh;
+  }
+  
+  a.company-link:hover > div{
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .company-1 {
+    background-image: url('img_company.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 290px;
+  }
+  
+  
+  .company-2 {
+    background-image: url('img_company_2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 350px;
+    height: 200px;
+    width: 290px;
+  }
+
+  .company-3 {
+    background-image: url('img_company.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 50px;
+    height: 200px;
+    width: 290px;
+  }
+  
+  #company-link:hover #company-button {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  #company-link:hover .company-1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img_company.png");
+    height: 200px;
+    width: 290px;
+  }
+  
+  #company-link:hover .company-2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img_company_2.png");
+    height: 200px;
+    width: 290px;
+  }
+
+  #company-link:hover .company-3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img_company.png");
+    height: 200px;
+    width: 290px;
+  }
+  
+  .company-1::after{
+    font-size: small;
+    color: #fff;
+    content: "- 会社概要";
+    letter-spacing: normal;
+    width: auto;
+    height: 10px;
+    position: relative;
+    top: 300px; 
+    left: 360px;
+  }
+  
+  .company-2::after{
+    font-size: small;
+    color: #999;
+    content: "- 事業案内";
+    letter-spacing: normal;
+    width: auto;
+    height: 10px;
+    position: relative;
+    top: 300px; 
+    left: 360px;
+  }
+
+  .company-3::after{
+    font-size: small;
+    color: #999;
+    content: "- 会社概要";
+    letter-spacing: normal;
+    width: auto;
+    height: 10px;
+    position: relative;
+    top: 300px; 
+    left: 360px;
+  }
+  
+  
+  .btn-company {
+    height: 1em; 
+    
+    position: relative;
+    bottom: 48px;
+  }
+
+  .btn-company-m{
+    height: 3em; 
+    position: relative;
+    bottom: 48px;
+  }
+  .btn-company-hotfix {
+    height: 3em; 
+    margin-left: 50px;
+    position: relative;
+    bottom: 48px;
+  }
+
+  .s_filler_1 {
+    height: 10vh;
+  }
+
+  .s_filler_2 {
+    height: 25vh;
+  }
+
+  .s_yellow {
+    height: 60vh;
+  }
+
+  .specials-title{
+    font-size: 1.5em;
+    top: 0px;
+    left: 100px;
+  }
+
+  .specials-wrapper {
+    height: 100vh;
+  }
+  
+  .specials-content {
+    position: absolute;
+    top: 150vh;
+    height: 70vh;
+  }
+  
+  a.specials-link:hover > div{
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .specials-1 {
+    background-image: url('img_specials_1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 290px;
+  }
+  
+  
+  .specials-2 {
+    background-image: url('img_specials_2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 290px;
+  }
+  
+  #specials-link:hover #specials-button {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  #specials-link:hover .specials-1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img_specials_1.png");
+    height: 200px;
+    width: 290px;
+  }
+  
+  #specials-link:hover .specials-2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img_specials_2.png");
+    height: 200px;
+    width: 290px;
+  }
+  
+  .specials-1::after{
+    font-size: small;
+    color: #fff;
+    content: "- 〇〇〇の賃貸が伸びている理由とは？";
+    letter-spacing: normal;
+    width: auto;
+    height: 10px;
+    position: relative;
+    top: 200px; 
+    left: 50px;
+  }
+  
+  .specials-2::after{
+    font-size: small;
+    color: #999;
+    content: "- 社員が語る地域での働き方";
+    letter-spacing: normal;
+    width: auto;
+    height: 10px;
+    position: relative;
+    top: 200px; 
+    left: 120px;
+  }
+  
+  .btn-specials {
+    height: 3em; 
+    position: relative;
+    bottom: 48px;
+  }
+
+  .nation-content{
+    position: absolute; 
+    top: 50vh;
+  }
+
+  .bg-nation {
+    background-color: white;
+    background-image: url('bg_nations.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .nation-wrapper{
+    height: 70vh;
+  }
+
+  .VerticalText
+  {
+    
+      line-height: 2;
+      font-size: x-small;
+      letter-spacing: 2px;
+      font-family: "Yu Gothic", "Yu Gothic", "Yu Gothic", YuGothic, sans-serif;
+      font-weight: normal;
+      font-weight: 500;
+      
+  }
+
+  .title {
+    vertical-align: top;
+    background-color: #ec9700;
+    
+    margin-top: -1em;
+    font-weight: 900;
+    font-size: large;
+  }
+
+  .subtitle {
+    vertical-align: top;
+    background-color: #ec9700;
+    
+    font-weight: 900;
+    font-size: small;
+  }
+
+
+  .navbar-collapse {
+      max-height: none;
+  }
+  body {
+      margin: 0;
+  }
+
+  .navbar-toggler {
+    border: none;
+    background: transparent !important;
+  }
+  .navbar-toggler:hover {
+    background: transparent !important;
+  }
+  .navbar-toggler .icon-bar {
+    display: block;
+    width: 16px;
+    height: 2px;
+    background-color: #cccccc;
+    border-radius: 1px;
+    transition: all 0.2s;
+  }
+  .navbar-toggler .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 50% 10%;
+  }
+  .navbar-toggler .middle-bar {
+    opacity: 0;
+  }
+  .navbar-toggler .bottom-bar {
+    transform: rotate(-45deg);
+    transform-origin: 50% 90%;
+  }
+  .navbar-toggler.collapsed .top-bar {
+    transform: rotate(0);
+  }
+  .navbar-toggler.collapsed .middle-bar {
+    opacity: 1;
+  }
+  .navbar-toggler.collapsed .bottom-bar {
+    transform: rotate(0);
+  }
+
+
+
+}
+
+/* BREAKPOINT IPAD PORTRAIT */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : PORTRAIT) {
+  .r_filler_1 {
+    height: 50vh;
+  }
+
+  .r_filler_2 {
+    height: 20vh;
+  }
+
+  .r_img {
+    height: 30vh;
+    margin-right: -15px;
+  }
+
+  .r-wrapper {
+    height: 100vh;
+  }
+
+  .r-content {
+    position: absolute;
+    top: 365vh;
+    height: 25vh;
+  }
+
+  .recruit-title{
+    font-size: 4em;
+    top: 400px;
+    left: 200px;
+  }
+
+  .btn-recruit-l {
+    width: 300px;
+    position: absolute;
+    right: 0;
+  }
+
+  .btn-recruit-r {
+    width: 300px;
+    position: absolute;
+    left:  0;
+  }
+
+  .btn-recruit-l:hover {
+    background-color: #333;
+    color: #fff;
+  }
+
+  .btn-recruit-r:hover {
+    background-color: #333;
+    color: #fff
+  }
+
+  .company-title{
+    font-size: 4em;
+    top: 50px;
+    right: 200px;
+  }
+  .c_filler_1 {
+    height: 20vh;
+  }
+
+  .c_filler_2 {
+    height: 20vh;
+  }
+
+  .c_blue {
+    height: 60vh;
+  } 
+  
+  .company-wrapper {
+    height: 100vh;
+  }
+  
+  .company-content {
+    position: absolute;
+    top: 225vh;
+    height: 25vh;
+  }
+  
+  a.company-link:hover > div{
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .company-1 {
+    background-image: url('img_company.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 430px;
+  }
+  
+  
+  .company-2 {
+    background-image: url('img_company_2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 350px;
+    height: 300px;
+    width: 430px;
+  }
+
+  .company-3 {
+    background-image: url('img_company.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 50px;
+    height: 300px;
+    width: 430px;
+  }
+  
+  #company-link:hover #company-button {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  #company-link:hover .company-1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img_company.png");
+    height: 300px;
+    width: 425px;
+  }
+  
+  #company-link:hover .company-2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img_company_2.png");
+    height: 300px;
+    width: 425px;
+  }
+
+  #company-link:hover .company-3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img_company.png");
+    height: 300px;
+    width: 425px;
+  }
+  
+  .company-1::after{
+    font-size: small;
+    color: #fff;
+    content: "- 会社概要";
+    letter-spacing: normal;
+    width: auto;
+    height: 10px;
+    position: relative;
+    top: 300px; 
+    left: 360px;
+  }
+  
+  .company-2::after{
+    font-size: small;
+    color: #999;
+    content: "- 事業案内";
+    letter-spacing: normal;
+    width: auto;
+    height: 10px;
+    position: relative;
+    top: 300px; 
+    left: 360px;
+  }
+
+  .company-3::after{
+    font-size: small;
+    color: #999;
+    content: "- 会社概要";
+    letter-spacing: normal;
+    width: auto;
+    height: 10px;
+    position: relative;
+    top: 300px; 
+    left: 360px;
+  }
+  
+  
+  .btn-company {
+    height: 3em; 
+    position: relative;
+    bottom: 48px;
+  }
+
+  .btn-company-hotfix {
+    height: 3em; 
+    margin-left: 50px;
+    position: relative;
+    bottom: 48px;
+  }
+
+  .s_filler_1 {
+    height: 15vh;
+  }
+
+  .s_filler_2 {
+    height: 25vh;
+  }
+
+  .s_yellow {
+    height: 60vh;
+  }
+
+  .specials-title{
+    font-size: 3em;
+    top: 50px;
+    left: 150px;
+  }
+
+  .specials-wrapper {
+    height: 100vh;
+  }
+  
+  .specials-content {
+    position: absolute;
+    top: 120vh;
+    height: 70vh;
+  }
+  
+  a.specials-link:hover > div{
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .specials-1 {
+    background-image: url('img_specials_1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 450px;
+  }
+  
+  
+  .specials-2 {
+    background-image: url('img_specials_2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 450px;
+  }
+  
+  #specials-link:hover #specials-button {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  #specials-link:hover .specials-1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img_specials_1.png");
+    height: 300px;
+    width: 440px;
+  }
+  
+  #specials-link:hover .specials-2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img_specials_2.png");
+    height: 300px;
+    width: 440px;
+  }
+  
+  .specials-1::after{
+    font-size: small;
+    color: #fff;
+    content: "- 〇〇〇の賃貸が伸びている理由とは？";
+    letter-spacing: normal;
+    width: auto;
+    height: 10px;
+    position: relative;
+    top: 300px; 
+    left: 200px;
+  }
+  
+  .specials-2::after{
+    font-size: small;
+    color: #999;
+    content: "- 社員が語る地域での働き方";
+    letter-spacing: normal;
+    width: auto;
+    height: 10px;
+    position: relative;
+    top: 300px; 
+    left: 265px;
+  }
+  
+  .btn-specials {
+    height: 3em; 
+    position: relative;
+    bottom: 48px;
+  }
+  
+
+  .nation-content{
+    position: absolute; 
+    top: 50vh;
+  }
+
+  .nation-wrapper{
+    height: 30vh;
+  }
+
+  .VerticalText
+  {
+    
+      line-height: 2;
+      font-size: small;
+      letter-spacing: 3px;
+      font-family: "Yu Gothic", "Yu Gothic", "Yu Gothic", YuGothic, sans-serif;
+      font-weight: normal;
+      writing-mode: vertical-rl;
+      font-weight: 500;
+      
+  }
+
+  .title {
+    vertical-align: top;
+    background-color: #ec9700;
+    
+    margin-top: -1em;
+    font-weight: 900;
+    font-size: large;
+  }
+
+  .subtitle {
+    vertical-align: top;
+    background-color: #ec9700;
+    
+    font-weight: 900;
+    font-size: small;
+  }
+
+  
+
+
+  .carousel-item{
+    height: 40vh;
+  }
+
+  #scrollbtn {
+    font-size: 0.5em;
+    z-index: 10; 
+    position: absolute; 
+    top: 85vh;
+  }
+}
+
+/* BREAKPOINT IPAD LANDSCAPE */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : LANDSCAPE) {
+  .gotop{
+    position: relative;
+    top: 350px;  
+  }
+  
+  #sticky-footer{
+    position: relative;
+    top: 350px;
+  }
+
+  .r_filler_1 {
+    height: 80vh;
+  }
+
+  .r_filler_2 {
+    height: 20vh;
+  }
+
+  .r_img {
+    height: 50vh;
+    margin-right: -15px;
+  }
+
+  .r-wrapper {
+    height: 100vh;
+  }
+
+  .r-content {
+    position: absolute;
+    top: 460vh;
+    height: 25vh;
+  }
+
+  .recruit-title{
+    font-size: 4em;
+    top: 500px;
+    left: 200px;
+  }
+
+  .btn-recruit-l {
+    width: 300px;
+    position: absolute;
+    right: 0;
+  }
+
+  .btn-recruit-r {
+    width: 300px;
+    position: absolute;
+    left:  0;
+  }
+
+  .btn-recruit-l:hover {
+    background-color: #333;
+    color: #fff;
+  }
+
+  .btn-recruit-r:hover {
+    background-color: #333;
+    color: #fff
+  }
+
+
+
+
+  .w_filler_1 {
+    height: 20vh;
+  }
+
+  .w_filler_2 {
+    height: 20vh;
+  }
+
+  .w_yellow {
+    height: 80vh;
+  }
+
+  .work-title{
+    font-size: 6em;
+    top: 50px;
+    left: 250px;
+  }
+  
+  .work-wrapper {
+    height: 100vh;
+  }
+  
+  .work-content {
+    position: absolute;
+    top: 440vh;
+    height: 70vh;
+  }
+  
+  a.work-link:hover > div{
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .work-1 {
+    background-image: url('img_work_1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 253px;
+    width: 550px;
+  }
+  
+  
+  .work-2 {
+    background-image: url('img_work_2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    height: 250px;
+    width: 550px;
+  }
+  
+  #work-link:hover #work-button {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  #work-link:hover .work-1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img_work_1.png");
+    height: 253px;
+    width: 550px;
+  }
+  
+  #work-link:hover .work-2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img_work_2.png");
+    height: 250px;
+    width: 550px;
+  }
+  
+  
+  .btn-work {
+    height: 3em; 
+    position: relative;
+    bottom: 50px;
+  }
+  .company-title{
+    font-size: 5em;
+    top: 550px;
+    right: 200px;
+  }
+  .c_filler_1 {
+    height: 90vh;
+  }
+
+  .c_filler_2 {
+    height: 20vh;
+  }
+
+  .c_blue {
+    height: 60vh;
+  } 
+  
+  .company-wrapper {
+    height: 100vh;
+  }
+  
+  .company-content {
+    position: absolute;
+    top: 360vh;
+    height: 25vh;
+  }
+  
+  a.company-link:hover > div{
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .company-1 {
+    background-image: url('img_company.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 430px;
+  }
+  
+  
+  .company-2 {
+    background-image: url('img_company_2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    left: -50px;
+    margin-top: 30px;
+    height: 300px;
+    width: 430px;
+  }
+
+  .company-3 {
+    background-image: url('img_company.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    left: -150px;
+    margin-top: 50px;
+    height: 300px;
+    width: 430px;
+  }
+
+  #company-link:hover #company-button {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  #company-link:hover .company-1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img_company.png");
+    height: 300px;
+    width: 425px;
+  }
+  
+  #company-link:hover .company-2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img_company_2.png");
+    height: 300px;
+    width: 425px;
+  }
+
+  #company-link:hover .company-3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img_company.png");
+    height: 300px;
+    width: 425px;
+  }
+  
+  .company-1::after{
+    font-size: small;
+    color: #999;
+    content: "- 会社概要";
+    letter-spacing: normal;
+    width: auto;
+    height: 10px;
+    position: relative;
+    top: 300px; 
+    left: 360px;
+  }
+  
+  .company-2::after{
+    font-size: small;
+    color: #999;
+    content: "- 事業案内";
+    letter-spacing: normal;
+    width: auto;
+    height: 10px;
+    position: relative;
+    top: 300px; 
+    left: 360px;
+  }
+
+  .company-3::after{
+    font-size: small;
+    color: #999;
+    content: "- 会社概要";
+    letter-spacing: normal;
+    width: auto;
+    height: 10px;
+    position: relative;
+    top: 300px; 
+    left: 360px;
+  }
+  
+  
+  .btn-company {
+    height: 3em; 
+    position: relative;
+    bottom: 48px;
+  }
+
+  .s_filler_1 {
+    height: 20vh;
+  }
+
+  .s_filler_1 {
+    height: 20vh;
+  }
+
+  .s_yellow {
+    height: 140vh;
+  }
+
+  .specials-title{
+    font-size: 5em;
+    top: 50px;
+    left: 250px;
+  }
+  
+  .specials-wrapper {
+    height: 100vh;
+  }
+  
+  .specials-content {
+    position: absolute;
+    top: 190vh;
+    height: 70vh;
+  }
+  
+  a.specials-link:hover > div{
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .specials-1 {
+    background-image: url('img_specials_1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 580px;
+  }
+  
+  
+  .specials-2 {
+    background-image: url('img_specials_2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    height: 400px;
+    width: 580px;
+  }
+  
+  #specials-link:hover #specials-button {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  #specials-link:hover .specials-1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img_specials_1.png");
+    height: 400px;
+    width: 580px;
+  }
+  
+  #specials-link:hover .specials-2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img_specials_2.png");
+    height: 400px;
+    width: 580px;
+  }
+  
+  .specials-1::after{
+    font-size: small;
+    color: #fff;
+    content: "- 〇〇〇の賃貸が伸びている理由とは？";
+    letter-spacing: normal;
+    width: auto;
+    height: 10px;
+    position: relative;
+    top: 400px; 
+    left: 350px;
+  }
+  
+  .specials-2::after{
+    font-size: small;
+    color: #fff;
+    content: "- 社員が語る地域での働き方";
+    letter-spacing: normal;
+    width: auto;
+    height: 10px;
+    position: relative;
+    top: 400px; 
+    left: 415px;
+  }
+  
+  .btn-specials {
+    height: 3em; 
+    position: relative;
+    bottom: 48px;
+  }
+
+
+  .nation-content{
+    position: absolute; 
+    top: 90vh;
+  }
+
+  .nation-wrapper{
+    height: 50vh;
+  }
+
+  .VerticalText
+  {
+    
+      line-height: 2.5;
+      font-size: small;
+      letter-spacing: 3px;
+      font-family: "Yu Gothic", "Yu Gothic", "Yu Gothic", YuGothic, sans-serif;
+      font-weight: normal;
+      writing-mode: vertical-rl;
+      font-weight: 500;
+      
+  }
+
+  .title {
+    vertical-align: top;
+    background-color: #ec9700;
+    
+    margin-top: -1em;
+    font-weight: 900;
+    font-size: large;
+  }
+
+  .subtitle {
+    vertical-align: top;
+    background-color: #ec9700;
+    
+    font-weight: 900;
+    font-size: small;
+  }
+
+  
+
+
+  .carousel-item{
+    height: 80vh;
+  }
+
+  #scrollbtn {
+    font-size: 0.5em;
+    z-index: 10; 
+    position: absolute; 
+    top: 65vh;
+  }
+}
+
+/* BREAKPOINT PC */
+@media screen and (min-width: 1280px) {
+
+  .r_filler_1 {
+    height: 20vh;
+  }
+
+  .r_filler_2 {
+    height: 20vh;
+  }
+
+  .r_img {
+    height: 50vh;
+    margin-right: -15px;
+  }
+
+  .recruit-title{
+    font-size: 6em;
+    top: 50px;
+    left: 200px;
+  }
+
+  .r-wrapper {
+    height: 100vh;
+  }
+
+  .r-content {
+    position: absolute;
+    top: 545vh;
+    height: 25vh;
+  }
+
+  .btn-recruit-l {
+    width: 400px;
+    position: absolute;
+    right: 0;
+  }
+
+  .btn-recruit-r {
+    width: 400px;
+    position: absolute;
+    l: 0;
+  }
+
+  .btn-recruit-l:hover {
+    background-color: #333;
+    color: #fff;
+  }
+
+  .btn-recruit-r:hover {
+    background-color: #333;
+    color: #fff
+  }
+
+
+
+
+  .w_filler_1 {
+    height: 20vh;
+  }
+
+  .w_filler_2 {
+    height: 20vh;
+  }
+
+  .w_yellow {
+    height: 60vh;
+  }
+
+  .work-title{
+    font-size: 6em;
+    top: 50px;
+    left: 250px;
+  }
+  
+  .work-wrapper {
+    height: 100vh;
+  }
+  
+  .work-content {
+    position: absolute;
+    top: 440vh;
+    height: 70vh;
+  }
+  
+  a.work-link:hover > div{
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .work-1 {
+    background-image: url('img_work_1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 253px;
+    width: 550px;
+  }
+  
+  
+  .work-2 {
+    background-image: url('img_work_2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    height: 250px;
+    width: 550px;
+  }
+  
+  #work-link:hover #work-button {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  #work-link:hover .work-1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img_work_1.png");
+    height: 253px;
+    width: 550px;
+  }
+  
+  #work-link:hover .work-2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img_work_2.png");
+    height: 250px;
+    width: 550px;
+  }
+  
+/*   .work-1::after{
+    font-size: small;
+    color: #999;
+    content: "- 〇〇〇の賃貸が伸びている理由とは？";
+    letter-spacing: normal;
+    width: auto;
+    height: 10px;
+    position: relative;
+    top: 400px; 
+    left: 350px;
+  }
+  
+  .work-2::after{
+    font-size: small;
+    color: #999;
+    content: "- 社員が語る地域での働き方";
+    letter-spacing: normal;
+    width: auto;
+    height: 10px;
+    position: relative;
+    top: 400px; 
+    left: 415px;
+  } */
+  
+  .btn-work {
+    height: 3em; 
+    position: relative;
+    bottom: 50px;
+  }
+  
+
+  .company-title{
+    font-size: 6em;
+    top: 50px;
+    right: 200px;
+  }
+  .c_filler_1 {
+    height: 20vh;
+  }
+
+  .c_filler_2 {
+    height: 20vh;
+  }
+
+  .c_blue {
+    height: 60vh;
+  } 
+  
+  .company-wrapper {
+    height: 100vh;
+  }
+  
+  .company-content {
+    position: absolute;
+    top: 345vh;
+    height: 25vh;
+  }
+  
+  a.company-link:hover > div{
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .company-1 {
+    background-image: url('img_company.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 430px;
+  }
+  
+  
+  .company-2 {
+    background-image: url('img_company_2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    height: 300px;
+    width: 430px;
+  }
+
+  .company-3 {
+    background-image: url('img_company.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    height: 300px;
+    width: 430px;
+  }
+  
+  #company-link:hover #company-button {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  #company-link:hover .company-1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img_company.png");
+    height: 300px;
+    width: 425px;
+  }
+  
+  #company-link:hover .company-2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img_company_2.png");
+    height: 300px;
+    width: 425px;
+  }
+
+  #company-link:hover .company-3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img_company.png");
+    height: 300px;
+    width: 425px;
+  }
+  
+  .company-1::after{
+    font-size: small;
+    color: #999;
+    content: "- 会社概要";
+    letter-spacing: normal;
+    width: auto;
+    height: 10px;
+    position: relative;
+    top: 300px; 
+    left: 360px;
+  }
+  
+  .company-2::after{
+    font-size: small;
+    color: #999;
+    content: "- 事業案内";
+    letter-spacing: normal;
+    width: auto;
+    height: 10px;
+    position: relative;
+    top: 300px; 
+    left: 360px;
+  }
+
+  .company-3::after{
+    font-size: small;
+    color: #999;
+    content: "- 会社概要";
+    letter-spacing: normal;
+    width: auto;
+    height: 10px;
+    position: relative;
+    top: 300px; 
+    left: 360px;
+  }
+  
+  
+  .btn-company {
+    height: 3em; 
+    position: relative;
+    bottom: 48px;
+  }
+
+
+
+  .s_filler_1 {
+    height: 20vh;
+  }
+
+  .s_filler_2 {
+    height: 20vh;
+  }
+
+  .s_yellow {
+    height: 60vh;
+  }
+
+  .specials-title{
+    font-size: 6em;
+    top: 50px;
+    left: 250px;
+  }
+  
+  .specials-wrapper {
+    height: 100vh;
+  }
+  
+  .specials-content {
+    position: absolute;
+    top: 230vh;
+    height: 70vh;
+  }
+  
+  a.specials-link:hover > div{
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .specials-1 {
+    background-image: url('img_specials_1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 580px;
+  }
+  
+  
+  .specials-2 {
+    background-image: url('img_specials_2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    height: 400px;
+    width: 580px;
+  }
+  
+  #specials-link:hover #specials-button {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  #specials-link:hover .specials-1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img_specials_1.png");
+    height: 400px;
+    width: 580px;
+  }
+  
+  #specials-link:hover .specials-2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img_specials_2.png");
+    height: 400px;
+    width: 580px;
+  }
+  
+  .specials-1::after{
+    font-size: small;
+    color: #999;
+    content: "- 〇〇〇の賃貸が伸びている理由とは？";
+    letter-spacing: normal;
+    width: auto;
+    height: 10px;
+    position: relative;
+    top: 400px; 
+    left: 350px;
+  }
+  
+  .specials-2::after{
+    font-size: small;
+    color: #999;
+    content: "- 社員が語る地域での働き方";
+    letter-spacing: normal;
+    width: auto;
+    height: 10px;
+    position: relative;
+    top: 400px; 
+    left: 415px;
+  }
+  
+  .btn-specials {
+    height: 3em; 
+    position: relative;
+    bottom: 48px;
+  }
+  
+
+  .nation-content{
+    position: absolute; 
+    top: 115vh;
+  }
+
+  .nation-wrapper{
+    height: 75vh;
+  }
+
+
+  .VerticalText
+  {
+    
+    
+      line-height: 3.5;
+      font-size: smaller;
+      letter-spacing: 3px;
+      font-family: "Yu Gothic", "Yu Gothic", "Yu Gothic", YuGothic, sans-serif;
+      font-weight: normal;
+      writing-mode: vertical-rl;
+      font-weight: 500;
+      
+  }
+
+  .title {
+    vertical-align: top;
+    background-color: #ec9700;
+    
+    margin-top: -1em;
+    font-weight: 900;
+    font-size: x-large;
+  }
+
+  .subtitle {
+    vertical-align: top;
+    background-color: #ec9700;
+    
+    font-weight: 900;
+    font-size: large;
+  }
+
+  
+
+
+  .carousel-item{
+    height: 100vh;
+  }
+
+  #scrollbtn {
+    font-size: 0.5em;
+    z-index: 10; 
+    position: absolute; 
+    top: 85vh;
+  }
+}
+
+.oswald {
+  font-family: 'Oswald';
+  font-weight: normal;
+}
+
+
+.yu
+{
+  font-family: "Yu Gothic", "Yu Gothic", "Yu Gothic", YuGothic, sans-serif;
+  font-weight: normal;
+}
+
+.logo-navtop {
+      
+  font-family: 'Oswald';
+  font-size: 2em;
+  letter-spacing: 2px;
+}
+
+.bg-navtop {
+  background-color: #3180d6;
+  padding: 0 10em 0 10;
+}
+
+.bg-nation {
+  background-color: white;
+  background-image: url('bg_nations.png');
+  background-position: center top;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.bg-specials {
+  background-color: #ec9700;
+  background-image: url('bg_specials.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+.bg-work {
+  background-color: #ec9700;
+  background-image: url('bg_work.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.bg-company {
+  background-color: #2065c5;
+  background-image: url('bg_company.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.bg-recruit {
+  background-color: #2065c5;
+  background-image: url('bg-recruit.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.company-title::before{
+  font-size: small;
+  content: "〇〇〇について";
+  letter-spacing: normal;
+  width: auto;
+  height: 10px;
+  position: absolute;
+  top: -5px;
+  right: 0;
+}
+
+.specials-title::before{
+  font-size: small;
+  content: "〇〇〇 スペシャルコンテンツ";
+  letter-spacing: normal;
+  width: auto;
+  height: 10px;
+  position: absolute;
+  top: -10px
+}
+
+.sectitle_r{
+  z-index: 10;
+  font-weight: 700;
+  letter-spacing: 3px;
+  position: absolute;
+}
+
+.sectitle_r::after {
+  content: "";
+  width: 15px;
+  height: 10px;
+  background: #050525;
+  position: absolute;
+  bottom: -10px;
+  right: 0;
+}
+
+.sectitle{
+  z-index: 10;
+  font-weight: 700;
+  letter-spacing: 3px;
+  position: absolute;
+}
+
+.sectitle::after {
+  content: "";
+  width: 15px;
+  height: 10px;
+  background: #050525;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+}
+
+
+.rows {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
+.bg-copyright {
+  background-color: #1f5bad;
+  color: #fff;
+}
+
+.bg-footer {
+  background-color: #2065c5;
+  color: #fff;
+}
+
+
+
+ul {
+  margin-left: -30px;
+}
+ul.dashed {
+  list-style-type: none;
+}
+ul.dashed > li {
+  text-indent: -5px;
+}
+ul.dashed > li:before {
+  content: "-";
+  text-indent: -5px;
+}
+
+.comment {
+  resize: none;
+}
+
+.fade {
+  opacity: 1;
+}
